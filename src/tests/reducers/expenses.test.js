@@ -49,3 +49,21 @@ test("should not edit expense if id not found", ()=>{
     const state = expensesReducer(expenses, action)
     expect(state).toEqual(expenses)
 })
+
+test('should set expenses', ()=>{
+    const newExpenses = [{
+        description: "hoola",
+        amount: 500,
+        createdAt:0,
+        note:''
+    }, 
+    {
+        description: "hoop",
+        amount: 300,
+        createdAt:0,
+        note:''
+    }]
+    const action = {type: "SET_EXPENSES", expenses: newExpenses}
+    const state = expensesReducer(expenses, action)
+    expect(state).toEqual(newExpenses)
+})
