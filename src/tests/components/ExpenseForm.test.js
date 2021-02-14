@@ -40,7 +40,7 @@ test('should render correctly on changed note textarea', ()=>{
     wrapper.find('textarea').simulate('change', {
         target:{value}
     })
-    expect(wrapper.state('notes')).toBe(value);
+    expect(wrapper.state('note')).toBe(value);
 })
 
 test('should render correctly on changed valid amount', ()=>{
@@ -72,7 +72,7 @@ test("should call onSubmit prop for valid submission", ()=>{
         description: expenses[0].description,
         amount:expenses[0].amount,
         createdAt:expenses[0].createdAt,
-        notes:expenses[0].notes,
+        note:expenses[0].note,
     })
 })
 

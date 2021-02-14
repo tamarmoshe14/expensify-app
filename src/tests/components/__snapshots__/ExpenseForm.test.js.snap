@@ -96,7 +96,7 @@ exports[`should render error for invalid submission 1`] = `
     />
     <textarea
       onChange={[Function]}
-      placeholder="Add some notes to your expense."
+      placeholder="Add a note to your expense."
       value=""
     />
     <button>
@@ -205,7 +205,7 @@ exports[`should render error for invalid submission 2`] = `
     />
     <textarea
       onChange={[Function]}
-      placeholder="Add some notes to your expense."
+      placeholder="Add a note to your expense."
       value=""
     />
     <button>
@@ -311,7 +311,7 @@ exports[`should render expense form 1`] = `
     />
     <textarea
       onChange={[Function]}
-      placeholder="Add some notes to your expense."
+      placeholder="Add a note to your expense."
       value=""
     />
     <button>
@@ -417,7 +417,8 @@ exports[`should render expense form with expense data 1`] = `
     />
     <textarea
       onChange={[Function]}
-      placeholder="Add some notes to your expense."
+      placeholder="Add a note to your expense."
+      value=""
     />
     <button>
       Add Expense

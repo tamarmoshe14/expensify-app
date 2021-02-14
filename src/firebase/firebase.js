@@ -62,9 +62,9 @@ export { firebase, database, googleAuthProvider as default };
 // })
 
 
-// // database.ref('notes/-MT5FNL0yVdNNOgkgl3c').remove();
+// // database.ref('note/-MT5FNL0yVdNNOgkgl3c').remove();
 
-// // database.ref('notes').push({
+// // database.ref('note').push({
 // //     title: "course topics",
 // //     note: "python"
 // // });
